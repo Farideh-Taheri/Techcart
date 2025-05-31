@@ -11,12 +11,12 @@
   -moz-osx-font-smoothing: grayscale;
   overflow-x:hidden;
 }
-html, body, #root {
+body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-}
+} 
 .app-container {
   min-height: 100vh;
   display: flex;
@@ -299,7 +299,6 @@ footer button:hover{
   }
 }
 .register-page {
-  min-height: 100vh;
   background-color: #f5f1f1;
   padding: 1rem;
 }

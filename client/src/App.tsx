@@ -42,7 +42,7 @@ function App() {
       <CartProvider>
         <QueryClientProvider client={client}>
            <RouterProvider router={router} />
-         <ScrollToTop />
+           <ScrollToTop />
         </QueryClientProvider>
       </CartProvider>
     </FilterProvider>

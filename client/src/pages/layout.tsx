@@ -27,7 +27,6 @@ export function Layout() {
         <button type="button" onClick={handleShippingClick}>Shipping & Returns</button>
         <button type="button" onClick={handleTermsClick}>Terms & Conditions</button>
       </footer>
-      
     </div>
   );
 }
