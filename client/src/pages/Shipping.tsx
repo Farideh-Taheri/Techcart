@@ -15,6 +15,7 @@ const Shipping= () => {
   const paragraphStyle = {
     margin: "0.5rem 0",
     padding: "1rem",
+    lineHeight: "1.8",
 
   };
 return(
