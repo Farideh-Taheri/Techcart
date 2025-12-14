@@ -23,7 +23,7 @@ export function Layout() {
         <Outlet />
       </main>
       <footer>
-        <button type="button" onClick={handleAboutClick} >About Us</button>
+        <button type="button" onClick={handleAboutClick}>About Us</button>
         <button type="button" onClick={handleShippingClick}>Shipping & Returns</button>
         <button type="button" onClick={handleTermsClick}>Terms & Conditions</button>
       </footer>

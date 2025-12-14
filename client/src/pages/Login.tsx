@@ -37,21 +37,23 @@ export function Login() {
     <div style= {{textAlign:"center"}}>
     <h2>Login Page</h2>
     <form onSubmit={handleSubmit(onSubmit)}>
-    <h3>First Name:</h3>
+    <label>First Name:</label><br/>
     <input type="text"
         placeholder="First Name"
         className = "border p-2 rounded w-full"
         {...register("firstName", { required: true })}
     />
     {errors.firstName && <p style={{ color: "red" }}>First name is required</p>}
-    <h3>Email:</h3>
+    <br/>
+    <label>Email:</label><br/>
     <input type="email"
         placeholder="Email"
         className = "border p-2 rounded w-full"
         {...register("email", { required: true })}
     />
     {errors.email && <p style={{ color: "red" }}>Email is required</p>}
-    <h3>Password:</h3>
+    <br/>
+    <label>Password:</label><br/>
     <input type="password"
         placeholder="Password"
         className = "border p-2 rounded w-full"

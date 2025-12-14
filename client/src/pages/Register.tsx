@@ -65,28 +65,28 @@ export function Register() {
 
     return (
     <div className="register-page" style= {{textAlign:"center"}}>
-    <h3>Email:</h3>
+    <label>Email:</label><br/>
     <input type="email"
         placeholder="Email"
         className = "border p-2 rounded w-full"
         value = {email}
         onChange={(e) => setEmail(e.target.value) }
-    />
-    <h3>First Name:</h3>
+    /> <br/>
+    <label>First Name:</label><br/>
     <input type="text"
         placeholder="First Name"
         className = "border p-2 rounded w-full"
         value = {firstName}
         onChange={(e) => setFirstName(e.target.value)}
-    />
-    <h3>Last Name:</h3>
+    /> <br/>
+    <label>Last Name:</label><br/>
     <input type="text"
         placeholder="Last Name"
         className = "border p-2 rounded w-full"
         value = {lastName}
         onChange={(e) => setLastName(e.target.value)}
-    />
-    <h3>Password:</h3>
+    /> <br/>
+    <label>Password:</label><br/>
     <input type="password"
         placeholder="Password"
         className = "border p-2 rounded w-full"
